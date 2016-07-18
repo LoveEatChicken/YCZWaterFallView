@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8E8EDD74CB1447E80A72680 /* libPods-WaterFallList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E16F087508F1F69548BE07 /* libPods-WaterFallList.a */; };
+		BA0C15571D1A416F0097DA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C15561D1A416F0097DA0B /* main.m */; };
+		BA0C155A1D1A416F0097DA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C15591D1A416F0097DA0B /* AppDelegate.m */; };
+		BA0C155D1D1A416F0097DA0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C155C1D1A416F0097DA0B /* ViewController.m */; };
+		BA0C15601D1A416F0097DA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0C155E1D1A416F0097DA0B /* Main.storyboard */; };
+		BA0C15621D1A416F0097DA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0C15611D1A416F0097DA0B /* Assets.xcassets */; };
+		BA0C15651D1A416F0097DA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0C15631D1A416F0097DA0B /* LaunchScreen.storyboard */; };
+		BA0C15701D1A416F0097DA0B /* WaterFallListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C156F1D1A416F0097DA0B /* WaterFallListTests.m */; };
+		BA0C157B1D1A416F0097DA0B /* WaterFallListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C157A1D1A416F0097DA0B /* WaterFallListUITests.m */; };
+		BA0C158A1D1A41E60097DA0B /* YCZCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C15891D1A41E60097DA0B /* YCZCollectionViewLayout.m */; };
+		BA0C158C1D1A43D20097DA0B /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA0C158B1D1A43D20097DA0B /* 1.plist */; };
+		BA68039F1D1BCF6C001308EE /* YCZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68039E1D1BCF6C001308EE /* YCZShop.m */; };
+		BA83DA9F1D1A72B0009D7961 /* YCZCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83DA9D1D1A72B0009D7961 /* YCZCollectionCell.m */; };
+		BA83DAA01D1A72B0009D7961 /* YCZCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA83DA9E1D1A72B0009D7961 /* YCZCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0C156C1D1A416F0097DA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0C154A1D1A416F0097DA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0C15511D1A416F0097DA0B;
+			remoteInfo = WaterFallList;
+		};
+		BA0C15771D1A416F0097DA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0C154A1D1A416F0097DA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0C15511D1A416F0097DA0B;
+			remoteInfo = WaterFallList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42BCB7C6E2FA8C3C20C1625F /* Pods-WaterFallList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterFallList.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterFallList/Pods-WaterFallList.release.xcconfig"; sourceTree = "<group>"; };
+		45E16F087508F1F69548BE07 /* libPods-WaterFallList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterFallList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0C15521D1A416F0097DA0B /* WaterFallList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFallList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0C15561D1A416F0097DA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA0C15581D1A416F0097DA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA0C15591D1A416F0097DA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA0C155B1D1A416F0097DA0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA0C155C1D1A416F0097DA0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA0C155F1D1A416F0097DA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0C15611D1A416F0097DA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0C15641D1A416F0097DA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0C15661D1A416F0097DA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0C156B1D1A416F0097DA0B /* WaterFallListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFallListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0C156F1D1A416F0097DA0B /* WaterFallListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallListTests.m; sourceTree = "<group>"; };
+		BA0C15711D1A416F0097DA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0C15761D1A416F0097DA0B /* WaterFallListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFallListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0C157A1D1A416F0097DA0B /* WaterFallListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallListUITests.m; sourceTree = "<group>"; };
+		BA0C157C1D1A416F0097DA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0C15881D1A41E60097DA0B /* YCZCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCZCollectionViewLayout.h; sourceTree = "<group>"; };
+		BA0C15891D1A41E60097DA0B /* YCZCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCZCollectionViewLayout.m; sourceTree = "<group>"; };
+		BA0C158B1D1A43D20097DA0B /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		BA68039D1D1BCF6C001308EE /* YCZShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCZShop.h; sourceTree = "<group>"; };
+		BA68039E1D1BCF6C001308EE /* YCZShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCZShop.m; sourceTree = "<group>"; };
+		BA83DA9C1D1A72B0009D7961 /* YCZCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCZCollectionCell.h; sourceTree = "<group>"; };
+		BA83DA9D1D1A72B0009D7961 /* YCZCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCZCollectionCell.m; sourceTree = "<group>"; };
+		BA83DA9E1D1A72B0009D7961 /* YCZCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCZCollectionCell.xib; sourceTree = "<group>"; };
+		D8D1B395C4FDBEFC5D1A0C32 /* Pods-WaterFallList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterFallList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterFallList/Pods-WaterFallList.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0C154F1D1A416F0097DA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E8EDD74CB1447E80A72680 /* libPods-WaterFallList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15681D1A416F0097DA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15731D1A416F0097DA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DE4DEF8173F6AACBAD8A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D1B395C4FDBEFC5D1A0C32 /* Pods-WaterFallList.debug.xcconfig */,
+				42BCB7C6E2FA8C3C20C1625F /* Pods-WaterFallList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C41C90BB2DA5F22B6C69F52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E16F087508F1F69548BE07 /* libPods-WaterFallList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0C15491D1A416F0097DA0B = {
+			isa = PBXGroup;
+			children = (
+				BA0C15541D1A416F0097DA0B /* WaterFallList */,
+				BA0C156E1D1A416F0097DA0B /* WaterFallListTests */,
+				BA0C15791D1A416F0097DA0B /* WaterFallListUITests */,
+				BA0C15531D1A416F0097DA0B /* Products */,
+				53DE4DEF8173F6AACBAD8A82 /* Pods */,
+				7C41C90BB2DA5F22B6C69F52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0C15531D1A416F0097DA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C15521D1A416F0097DA0B /* WaterFallList.app */,
+				BA0C156B1D1A416F0097DA0B /* WaterFallListTests.xctest */,
+				BA0C15761D1A416F0097DA0B /* WaterFallListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0C15541D1A416F0097DA0B /* WaterFallList */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C15581D1A416F0097DA0B /* AppDelegate.h */,
+				BA0C15591D1A416F0097DA0B /* AppDelegate.m */,
+				BA68039D1D1BCF6C001308EE /* YCZShop.h */,
+				BA68039E1D1BCF6C001308EE /* YCZShop.m */,
+				BA0C155B1D1A416F0097DA0B /* ViewController.h */,
+				BA0C155C1D1A416F0097DA0B /* ViewController.m */,
+				BA0C15881D1A41E60097DA0B /* YCZCollectionViewLayout.h */,
+				BA0C15891D1A41E60097DA0B /* YCZCollectionViewLayout.m */,
+				BA83DA9C1D1A72B0009D7961 /* YCZCollectionCell.h */,
+				BA83DA9D1D1A72B0009D7961 /* YCZCollectionCell.m */,
+				BA83DA9E1D1A72B0009D7961 /* YCZCollectionCell.xib */,
+				BA0C155E1D1A416F0097DA0B /* Main.storyboard */,
+				BA0C15611D1A416F0097DA0B /* Assets.xcassets */,
+				BA0C15631D1A416F0097DA0B /* LaunchScreen.storyboard */,
+				BA0C15661D1A416F0097DA0B /* Info.plist */,
+				BA0C158B1D1A43D20097DA0B /* 1.plist */,
+				BA0C15551D1A416F0097DA0B /* Supporting Files */,
+			);
+			path = WaterFallList;
+			sourceTree = "<group>";
+		};
+		BA0C15551D1A416F0097DA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C15561D1A416F0097DA0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA0C156E1D1A416F0097DA0B /* WaterFallListTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C156F1D1A416F0097DA0B /* WaterFallListTests.m */,
+				BA0C15711D1A416F0097DA0B /* Info.plist */,
+			);
+			path = WaterFallListTests;
+			sourceTree = "<group>";
+		};
+		BA0C15791D1A416F0097DA0B /* WaterFallListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C157A1D1A416F0097DA0B /* WaterFallListUITests.m */,
+				BA0C157C1D1A416F0097DA0B /* Info.plist */,
+			);
+			path = WaterFallListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0C15511D1A416F0097DA0B /* WaterFallList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0C157F1D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallList" */;
+			buildPhases = (
+				5734D4E36B0DEC0662966892 /* [CP] Check Pods Manifest.lock */,
+				BA0C154E1D1A416F0097DA0B /* Sources */,
+				BA0C154F1D1A416F0097DA0B /* Frameworks */,
+				BA0C15501D1A416F0097DA0B /* Resources */,
+				7C4A6CCB68FA37960290440F /* [CP] Embed Pods Frameworks */,
+				5FF3C7466FEFC234B1DA4E48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterFallList;
+			productName = WaterFallList;
+			productReference = BA0C15521D1A416F0097DA0B /* WaterFallList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0C156A1D1A416F0097DA0B /* WaterFallListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0C15821D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallListTests" */;
+			buildPhases = (
+				BA0C15671D1A416F0097DA0B /* Sources */,
+				BA0C15681D1A416F0097DA0B /* Frameworks */,
+				BA0C15691D1A416F0097DA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0C156D1D1A416F0097DA0B /* PBXTargetDependency */,
+			);
+			name = WaterFallListTests;
+			productName = WaterFallListTests;
+			productReference = BA0C156B1D1A416F0097DA0B /* WaterFallListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA0C15751D1A416F0097DA0B /* WaterFallListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0C15851D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallListUITests" */;
+			buildPhases = (
+				BA0C15721D1A416F0097DA0B /* Sources */,
+				BA0C15731D1A416F0097DA0B /* Frameworks */,
+				BA0C15741D1A416F0097DA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0C15781D1A416F0097DA0B /* PBXTargetDependency */,
+			);
+			name = WaterFallListUITests;
+			productName = WaterFallListUITests;
+			productReference = BA0C15761D1A416F0097DA0B /* WaterFallListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0C154A1D1A416F0097DA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = crystal;
+				TargetAttributes = {
+					BA0C15511D1A416F0097DA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA0C156A1D1A416F0097DA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA0C15511D1A416F0097DA0B;
+					};
+					BA0C15751D1A416F0097DA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA0C15511D1A416F0097DA0B;
+					};
+				};
+			};
+			buildConfigurationList = BA0C154D1D1A416F0097DA0B /* Build configuration list for PBXProject "WaterFallList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0C15491D1A416F0097DA0B;
+			productRefGroup = BA0C15531D1A416F0097DA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0C15511D1A416F0097DA0B /* WaterFallList */,
+				BA0C156A1D1A416F0097DA0B /* WaterFallListTests */,
+				BA0C15751D1A416F0097DA0B /* WaterFallListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0C15501D1A416F0097DA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0C15651D1A416F0097DA0B /* LaunchScreen.storyboard in Resources */,
+				BA0C15621D1A416F0097DA0B /* Assets.xcassets in Resources */,
+				BA0C158C1D1A43D20097DA0B /* 1.plist in Resources */,
+				BA0C15601D1A416F0097DA0B /* Main.storyboard in Resources */,
+				BA83DAA01D1A72B0009D7961 /* YCZCollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15691D1A416F0097DA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15741D1A416F0097DA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5734D4E36B0DEC0662966892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF3C7466FEFC234B1DA4E48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterFallList/Pods-WaterFallList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4A6CCB68FA37960290440F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterFallList/Pods-WaterFallList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0C154E1D1A416F0097DA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0C155D1D1A416F0097DA0B /* ViewController.m in Sources */,
+				BA0C155A1D1A416F0097DA0B /* AppDelegate.m in Sources */,
+				BA68039F1D1BCF6C001308EE /* YCZShop.m in Sources */,
+				BA0C15571D1A416F0097DA0B /* main.m in Sources */,
+				BA0C158A1D1A41E60097DA0B /* YCZCollectionViewLayout.m in Sources */,
+				BA83DA9F1D1A72B0009D7961 /* YCZCollectionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15671D1A416F0097DA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0C15701D1A416F0097DA0B /* WaterFallListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C15721D1A416F0097DA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0C157B1D1A416F0097DA0B /* WaterFallListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0C156D1D1A416F0097DA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0C15511D1A416F0097DA0B /* WaterFallList */;
+			targetProxy = BA0C156C1D1A416F0097DA0B /* PBXContainerItemProxy */;
+		};
+		BA0C15781D1A416F0097DA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0C15511D1A416F0097DA0B /* WaterFallList */;
+			targetProxy = BA0C15771D1A416F0097DA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA0C155E1D1A416F0097DA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0C155F1D1A416F0097DA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA0C15631D1A416F0097DA0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0C15641D1A416F0097DA0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0C157D1D1A416F0097DA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0C157E1D1A416F0097DA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0C15801D1A416F0097DA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D1B395C4FDBEFC5D1A0C32 /* Pods-WaterFallList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
+				INFOPLIST_FILE = WaterFallList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		BA0C15811D1A416F0097DA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BCB7C6E2FA8C3C20C1625F /* Pods-WaterFallList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
+				INFOPLIST_FILE = WaterFallList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		BA0C15831D1A416F0097DA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterFallListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFallList.app/WaterFallList";
+			};
+			name = Debug;
+		};
+		BA0C15841D1A416F0097DA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterFallListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFallList.app/WaterFallList";
+			};
+			name = Release;
+		};
+		BA0C15861D1A416F0097DA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterFallListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterFallList;
+			};
+			name = Debug;
+		};
+		BA0C15871D1A416F0097DA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterFallListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.crystal.WaterFallListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterFallList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0C154D1D1A416F0097DA0B /* Build configuration list for PBXProject "WaterFallList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0C157D1D1A416F0097DA0B /* Debug */,
+				BA0C157E1D1A416F0097DA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0C157F1D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0C15801D1A416F0097DA0B /* Debug */,
+				BA0C15811D1A416F0097DA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0C15821D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0C15831D1A416F0097DA0B /* Debug */,
+				BA0C15841D1A416F0097DA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0C15851D1A416F0097DA0B /* Build configuration list for PBXNativeTarget "WaterFallListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0C15861D1A416F0097DA0B /* Debug */,
+				BA0C15871D1A416F0097DA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0C154A1D1A416F0097DA0B /* Project object */;
+}
